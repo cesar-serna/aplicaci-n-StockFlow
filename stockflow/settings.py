@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-s479ka7pdkio#j^u10d)fg@9@d%gpvf*+qb@-yj#7x0k8!7b2!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'stockflow-hpyg.onrender.com', 
+    'localhost', 
+    '127.0.0.1'
+]
 
 
 # Application definition
